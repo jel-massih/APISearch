@@ -1,0 +1,77 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>API Search</title>
+
+    <link href="css/font-awesome.min.css" rel="stylesheet"> 
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
+    <style>
+      body{
+        font-family: 'Roboto', Serif;
+        font-weight: 300;
+      }
+    </style>
+  </head>
+
+  <body style="">
+
+    <div id="wrap">
+      <div class="jumbotron">
+        <div class="container">
+          <!--<h1><span class="purple">API Search</span></h1>
+          <p>Type in a query below and our Monkeys will go collect data from various API's and serve it to you!</p>-->
+          <div id="searchBarMain">
+            <input id="searchBarMainInput" type="text" class="form-control" placeholder="Search...">
+            <input id="searchBarMainButton" type="button" class="btn btn-success" value="Go!">
+          </div>
+        </div>
+        <div style="font-size:24px;text-align: center;" id="status">
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div id="" class="rdioPlayer">
+        <div class="container">
+          <div style="width:80px; float:left">
+            <img src="" style="width:80px;height:80px;margin-top:10px" id="art">
+          </div>
+          <div style="width:200px; float:left; margin-top:15px">
+            <div style="width:200px;text-align:center;" id="track"></div>
+            <div style="width:200px;text-align:center;" id="artist"></div>
+            <div class="media_btns">
+              <button id="prev_track" class="btn btn-block media-btn">
+                <i class="fa-icon-backward back"></i>
+              </button>
+              <button id="track_play" class="btn media-btn">
+                <i id="track_play_icon" class="fa-icon-play"></i>
+              </button>
+              <button id="next_track" class="btn media-btn">
+                <i class="fa-icon-forward"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="apiswf">
+  </body>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/search.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+  <script src="js/rdio.js"></script>
+</html>
+
+
+
+
+
+<!--</div>
+     
+      </div>-->
